@@ -1,4 +1,3 @@
-/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 * {
@@ -33,7 +32,6 @@ body {
   flex-direction: column;
 }
 
-/* Header Styles */
 .app-header {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
@@ -46,10 +44,10 @@ body {
   font-size: 3rem;
   font-weight: 700;
   background: linear-gradient(45deg, var(--secondary-color), var(--accent-color));
-  background-clip: text; /* Standard property - supported in modern browsers */
-  -webkit-background-clip: text; /* Vendor prefix for Safari and older browsers */
-  color: transparent; /* Standard way to make text transparent */
-  -webkit-text-fill-color: transparent; /* Vendor prefix for Safari */
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  -webkit-text-fill-color: transparent; 
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -61,7 +59,6 @@ body {
   opacity: 0.8;
 }
 
-/* Search Bar Styles */
 .search-form {
   max-width: 600px;
   margin: 2rem auto;
@@ -119,7 +116,6 @@ body {
   transform: none;
 }
 
-/* Error Message */
 .error-message {
   background: rgba(255, 255, 255, 0.95);
   padding: 2rem;
@@ -154,7 +150,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Loading Spinner */
 .loading {
   text-align: center;
   padding: 3rem;
@@ -176,7 +171,6 @@ body {
   100% { transform: rotate(360deg); }
 }
 
-/* Results Section */
 .results {
   padding: 0 1rem 2rem 1rem;
   max-width: 1200px;
@@ -191,7 +185,6 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Books Grid */
 .books-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -199,7 +192,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Book Card */
 .book-card {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
@@ -260,7 +252,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* Subjects */
 .subjects {
   display: flex;
   flex-wrap: wrap;
@@ -277,14 +268,13 @@ body {
   font-weight: 500;
 }
 
-/* No Results */
 .no-results {
   text-align: center;
   padding: 3rem;
   color: white;
 }
 
-/* Footer */
+
 .footer {
   background: rgba(0, 0, 0, 0.8);
   color: var(--text-light);
@@ -293,7 +283,7 @@ body {
   margin-top: 2rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .app-title {
     font-size: 2rem;
@@ -336,13 +326,12 @@ body {
   }
 }
 
-/* Simple Signature Footer Styles */
 .signature-footer {
   background: rgba(0, 0, 0, 0.8);
   color: var(--text-light);
   text-align: center;
   padding: 1.5rem;
-  margin-top: auto; /* Push footer to bottom */
+  margin-top: auto; 
 }
 
 .signature {
@@ -374,10 +363,9 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
 }
 
-/* Responsive footer */
 @media (max-width: 768px) {
   .signature {
-    flex-direction: row; /* Keep horizontal on mobile too */
+    flex-direction: row; 
     gap: 0.5rem;
   }
   
